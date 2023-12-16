@@ -86,6 +86,12 @@
     margin-bottom: 30px;
     font-size: 45px;
 }
+.slide {
+    background-color: #FFC5C5;
+    padding: 15px 70px 50px;
+    margin: 80px;
+    border-radius: 30px;
+}
 
 .card-about .card-text {
     width: 65%;
@@ -261,7 +267,10 @@
         width: 150%;
         margin-left: -75px;
     }
-
+    .slide {
+        margin: 30px;
+        padding: 5px;
+    }
     .skil-img {
         width: 50px;
 
