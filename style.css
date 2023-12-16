@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    overflow: hidden;
+    background-color: #FFC5C5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 40px;
+}
+
+.text button{
+    width: 150%;
+}
+.text i{
+    font-size: 12px;
+    margin: 10px 50px;
+    color: gray
+}
+
+.nav-container a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.nav-container .menu a:hover {
+    border-bottom: 2px solid #DC8686;
+    color: #DC8686;
+}
+
+
+.nav-container a.active {
+    background-color: #b89eb0;
+    color: white;
+}
+
+.nav-container .icon {
+    display: none;
+}
+
+
+.utama {
+    display: flex;
+    align-items: center;
+}
+
+.utama-content {
+    width: 100%;
+    padding: 0;
+}
+
+.utama-img {
+    padding: 100px 50px 100px 120px;
+}
+
+.utama-img img {
+    width: 100%;
+    border-radius: 170px;
+}
+
+.utama-content h3 {
+    font-size: 45px;
+}
+
+.utama-content h3 span {
+    color: #FF9B9B;
+}
+
+.about {
+    padding: 40px 120px 80px 120px;
+    background-color: #FFC5C5;
+}
+
+.about h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.card-about .card-text {
+    width: 65%;
+    margin-left: 30px;
+
+}
+
+.card-about {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 50px;
+    position: center;
+    display: flex;
+    align-items: center;
+}
+
+.skil-img {
+    display: flex;
+}
+
+.card-about .about-img img {
+    width: 80%;
+    margin-left: 80px;
+    /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+}
+
+.card-about .card-text p {
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+.card-about .card-text img {
+    margin-bottom: 5px;
+}
+
+/* .skil {
+    background-color: #fff;
+    margin: 80px 50px 100px 50px;
+}
+
+.skil-img img {
+    padding: 80px;
+    border-radius: 100px;  
+    width: 23%;
+}
+.skil h1{
+    margin-bottom: 50px;
+} */
+
+/* .card-skil {
+    text-align: center;
+    min-height: 306px;
+    
+    padding: 30px 50px 0 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    margin: 10px 10px;
+    border-radius: 50%;
+} */
+.portofolio {
+    background-color: #fff;
+    margin: 80px 50px 100px 50px;
+}
+
+.porto-card {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.porto-card .card-1 {
+    background-color: #FFC5C5;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.porto-card .card-2 {
+    background-color: #FFC5C5;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.porto-card .card-3 {
+    background-color: #FFC5C5;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.porto-card .card-1 img {
+    width: 100%;
+}
+
+.porto-card .card-2 img {
+    width: 100%;
+}
+
+.porto-card .card-3 img {
+    width: 100%;
+}
+
+.contact {
+    padding: 80px 120px 80px 120px;
+    background-color: #FFC5C5;
+}
+
+.contact-card {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 50px;
+    position: center;
+    display: flex;
+
+}
+
+.contact-card .contact-img img {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.contact-card .media {
+    width: 50%;
+    margin: 0;
+    margin-right: 80px;
+}
+
+.media img {
+    width: 7%;
+}
+
+.media p {
+    font-size: 15px;
+}
+
+.media .sosial img {
+    width: 15%;
+}
+
+/* .text .klik{
+    font-size: 10px;
+    margin: 10px;
+} */
+
+@media screen and (max-width: 600px) {
+    .nav-container {
+        display: block;
+        padding: 0;
+        background-color: #FFC5C5;
+    }
+
+    .nav-container .menu a {
+        display: flex;
+        margin-top: -10%;
+    }
+
+    .utama {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+
+    .utama-content h3 {
+        font-size: 60px;
+        margin-top: -25%;
+        margin-bottom: 30%;
+    }
+
+    .utama-img img {
+        width: 150%;
+        margin-left: -75px;
+    }
+
+    .skil-img {
+        width: 50px;
+
+    }
+
+    .text button {
+        width: 150%;
+    }
+
+    .text {
+        display: flex;
+    }
+
+    .klik {
+        margin-left: auto;
+    }
+    /* .text button {
+        width: 15px;
+        font-size: smaller;
+    } */
+    .text i{
+        margin: 0px 0 0px 30px;
+        font-size:9px;
+    }
+
+    .skil-img .php {
+        width: 30px;
+        height: 70px;
+    }
+
+    .about h1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .card-text h5 {
+        font-size: 14px;
+    }
+
+    .menu {
+        margin-top: 20px;
+    }
+
+    .text {
+        margin: 0px;
+    }
+
+    .card-about {
+        padding: 25px 5px 20px 5px;
+        border-radius: 50px;
+    }
+
+    .about {
+        padding: 10px 30px 50px 30px;
+        background-color: #FFC5C5;
+    }
+
+    .card-about .about-img img {
+        width: 0;
+    }
+
+    .card-about .card-text p {
+        margin-bottom: 10px;
+        font-size: 16px;
+        align-items: center;
+        width: 125%;
+    }
+
+    .card-about button {
+        height: 35px;
+    }
+
+    .skil-img img {
+        width: 120%;
+        margin-bottom: 5px;
+    }
+
+    .porto-card {
+        display: block;
+    }
+
+    .porto-card .card-1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .porto-card .card-2 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .porto-card .card-3 {
+        width: 100%;
+    }
+
+    .contact-card {
+        width: 350px;
+        margin-left: -100px;
+        display: block;
+    }
+
+    .contact-card .contact-img img {
+        width: 100%;
+    }
+
+    .contact-card .media {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
